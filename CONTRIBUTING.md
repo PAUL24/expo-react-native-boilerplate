@@ -10,7 +10,7 @@ cp .env.example .env
 npm start
 ```
 
-Use Node.js 22.13 or newer and npm. Do not add Yarn or pnpm lockfiles.
+Use Node.js 22.13 or newer and npm. The committed `.npmrc` keeps peer-dependency resolution aligned with EAS Build; do not override it with `legacy-peer-deps=true`. Do not add Yarn or pnpm lockfiles.
 
 ## Before opening a pull request
 

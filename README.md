@@ -419,7 +419,7 @@ No foreign Expo project ID, update URL, credentials, or signing material is comm
 
 GitHub Actions runs on pushes to `main` and pull requests:
 
-1. `npm ci`
+1. `npm ci --include=dev --legacy-peer-deps=false` (matches EAS Build)
 2. Prettier check
 3. ESLint
 4. strict TypeScript
@@ -478,6 +478,17 @@ Providers expose narrow state, remote data stays in TanStack Query, and screens 
 See [SECURITY.md](SECURITY.md) for reporting and supported-version guidance.
 
 ## Troubleshooting
+
+**EAS Build says `package.json` and `package-lock.json` are not in sync**
+
+The committed `.npmrc` uses standard peer-dependency resolution. Regenerate and commit the lockfile with the same policy used by EAS:
+
+```bash
+npm install --legacy-peer-deps=false
+npm ci --include=dev --legacy-peer-deps=false
+```
+
+Do not generate the lockfile with `legacy-peer-deps=true`; that can omit React Native's Metro and Babel peer toolchain and fail during EAS's clean install.
 
 **Expo reports dependency mismatches**
 
