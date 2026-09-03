@@ -60,7 +60,7 @@
     "jest-expo": "~57.0.5",
     "prettier": "^3.9.6",
     "test-renderer": "^1.2.0",
-    "typescript": "~6.0.3"
+    "typescript": "~7.0.2"
   },
   "scripts": {
     "start": "expo start",
