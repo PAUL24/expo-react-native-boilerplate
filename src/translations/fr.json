@@ -1,0 +1,63 @@
+{
+  "common": {
+    "appName": "Boilerplate Expo",
+    "backHome": "Retour à l’accueil",
+    "loading": "Chargement…",
+    "retry": "Réessayer"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "example": "Exemple API",
+    "settings": "Réglages",
+    "user": "Détails utilisateur",
+    "notFound": "Introuvable"
+  },
+  "home": {
+    "eyebrow": "ARCHITECTURE EXPO-NATIVE",
+    "title": "Construisez le produit, pas la plomberie.",
+    "description": "Une base réfléchie pour les applications universelles avec des routes fines, une infrastructure typée, une validation à l’exécution et des composants accessibles.",
+    "themeLabel": "Thème",
+    "languageLabel": "Langue",
+    "apiTitle": "Flux API validé",
+    "apiDescription": "TanStack Query → service → ky → Zod",
+    "settingsTitle": "Thème et langue",
+    "settingsDescription": "Préférences persistantes avec valeurs système",
+    "routeTitle": "Route dynamique typée",
+    "routeDescription": "Ouvrir /user/1 avec un paramètre de route typé"
+  },
+  "example": {
+    "description": "Cette requête traverse chaque frontière de données indépendamment, pour que l’interface ne gère jamais le transport ou l’analyse.",
+    "loading": "Chargement d’un utilisateur validé…",
+    "errorTitle": "Impossible de charger l’exemple",
+    "errorDescription": "Vérifiez votre connexion et réessayez. Les détails internes de l’API sont volontairement masqués.",
+    "successLabel": "RÉPONSE VALIDÉE",
+    "email": "E-mail",
+    "company": "Entreprise",
+    "openUser": "Ouvrir la route utilisateur dynamique"
+  },
+  "settings": {
+    "description": "Les préférences sont appliquées à l’exécution et persistées derrière une abstraction de stockage.",
+    "themeTitle": "Apparence",
+    "themeDescription": "Suivez l’appareil ou choisissez un thème fixe.",
+    "languageTitle": "Langue",
+    "languageDescription": "Choisissez la langue de l’application indépendamment de l’appareil.",
+    "system": "Système",
+    "light": "Clair",
+    "dark": "Sombre",
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "user": {
+    "routeLabel": "PARAMÈTRE DE ROUTE DYNAMIQUE",
+    "title": "Utilisateur {{id}}",
+    "description": "Le fichier de route analyse uniquement le paramètre URL. Cet écran gère la présentation.",
+    "invalid": "Aucun identifiant utilisateur valide n’a été fourni."
+  },
+  "errors": {
+    "boundaryTitle": "Un problème est survenu",
+    "boundaryDescription": "L’application a récupéré en toute sécurité. Essayez d’afficher cet écran à nouveau.",
+    "diagnostics": "Diagnostic de développement",
+    "notFoundTitle": "Cet écran n’existe pas",
+    "notFoundDescription": "Le lien est peut-être obsolète ou la route a été déplacée."
+  }
+}

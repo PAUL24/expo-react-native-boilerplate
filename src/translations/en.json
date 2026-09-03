@@ -1,0 +1,63 @@
+{
+  "common": {
+    "appName": "Expo Boilerplate",
+    "backHome": "Back to home",
+    "loading": "Loading…",
+    "retry": "Try again"
+  },
+  "navigation": {
+    "home": "Home",
+    "example": "API example",
+    "settings": "Settings",
+    "user": "User details",
+    "notFound": "Not found"
+  },
+  "home": {
+    "eyebrow": "EXPO-FIRST ARCHITECTURE",
+    "title": "Build the product, not the plumbing.",
+    "description": "A deliberate foundation for universal apps with thin routes, typed infrastructure, runtime validation, and accessible components.",
+    "themeLabel": "Theme",
+    "languageLabel": "Language",
+    "apiTitle": "Validated API flow",
+    "apiDescription": "TanStack Query → service → ky → Zod",
+    "settingsTitle": "Theme and language",
+    "settingsDescription": "Persistent preferences with system defaults",
+    "routeTitle": "Typed dynamic route",
+    "routeDescription": "Open /user/1 with a typed route parameter"
+  },
+  "example": {
+    "description": "This request crosses each data boundary independently, so the UI never owns transport or parsing logic.",
+    "loading": "Loading a validated user…",
+    "errorTitle": "We couldn’t load the example",
+    "errorDescription": "Check your connection and try again. Internal API details are intentionally hidden.",
+    "successLabel": "VALIDATED RESPONSE",
+    "email": "Email",
+    "company": "Company",
+    "openUser": "Open dynamic user route"
+  },
+  "settings": {
+    "description": "Preferences are applied at runtime and persisted behind a storage abstraction.",
+    "themeTitle": "Appearance",
+    "themeDescription": "Follow the device or choose a fixed theme.",
+    "languageTitle": "Language",
+    "languageDescription": "Choose the application language independently of the device.",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark",
+    "english": "English",
+    "french": "French"
+  },
+  "user": {
+    "routeLabel": "DYNAMIC ROUTE PARAMETER",
+    "title": "User {{id}}",
+    "description": "The route file only parses the URL parameter. This screen owns the presentation.",
+    "invalid": "No valid user ID was supplied."
+  },
+  "errors": {
+    "boundaryTitle": "Something went wrong",
+    "boundaryDescription": "The application recovered safely. Try rendering this screen again.",
+    "diagnostics": "Development diagnostics",
+    "notFoundTitle": "That screen does not exist",
+    "notFoundDescription": "The link may be outdated or the route may have moved."
+  }
+}

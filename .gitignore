@@ -31,12 +31,23 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
+.env.*
+!.env.example
 .env*.local
+
+# tests
+coverage/
+
+# EAS and native build artifacts
+*.aab
+*.apk
+*.ipa
+credentials.json
+google-service-account.json
 
 # typescript
 *.tsbuildinfo
-
-example
 
 # generated native folders
 /ios

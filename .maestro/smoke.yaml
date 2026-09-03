@@ -1,0 +1,11 @@
+appId: com.example.expoboilerplate
+---
+- launchApp:
+    clearState: true
+- assertVisible: 'Build the product, not the plumbing.'
+- tapOn: 'Theme and language'
+- assertVisible: 'Appearance'
+- tapOn: 'Dark'
+- assertVisible: 'Dark'
+- back
+- assertVisible: 'Build the product, not the plumbing.'

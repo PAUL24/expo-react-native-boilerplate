@@ -1,0 +1,7 @@
+{
+  "name": "Expo Boilerplate",
+  "slug": "expo-react-native-boilerplate",
+  "iosBundleIdentifier": "com.example.expoboilerplate",
+  "androidPackage": "com.example.expoboilerplate",
+  "scheme": "expoboilerplate"
+}

@@ -1,0 +1,33 @@
+name: Bug report
+description: Report reproducible boilerplate behavior
+title: 'bug: '
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide the smallest reproducible steps or repository.
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: iOS, Android, or web
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include Node, Expo, OS, device, and development-build or Expo Go details.
+    validations:
+      required: true
